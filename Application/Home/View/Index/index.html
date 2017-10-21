@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>BLOG  | Amaze UI Examples</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png" href="__PUBLIC__/assets/i/favicon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+  <link rel="stylesheet" href="__PUBLIC__/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/assets/css/app.css">
+</head>
+
+<body id="blog">
+
+<!-- header start -->
+<include file="Public/header" />
+<!-- header end -->
+
+
+<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed">
+    <div class="am-u-md-8 am-u-sm-12">
+        <div id="article_list">
+         <foreach name="articleList" item="val">
+            <article class="am-g blog-entry-article">
+                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+                    <img src="__PUBLIC__{$val.article_img}" alt="" class="am-u-sm-12">
+                </div>
+                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+                    <span><a href="" class="blog-color">article &nbsp;</a></span>
+                    <span> @amazeUI &nbsp;</span>
+                    <span>{:date("Y/m/d",$val['article_time'])}</span>
+                    <h1><a href="{:U('Article/ArticleContent',array('a_id'=>$val['a_id']))}" target="_slef">{$val.article_name}</a></h1>
+                    <p>{:$val['article_content']}...</p>
+                    <p><a href="" class="blog-continue">continue reading</a></p>
+                </div>
+             </article>
+        </foreach>
+        </div>
+        <div>
+            <button type="button" class="am-btn am-btn-success am-round am-btn-block more">加载更多</button>
+        </div>
+    </div>
+       
+
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>关于博客</span></h2>
+        <!--     <img src="__PUBLIC__/assets/i/f14.jpg" alt="about me" class="blog-entry-img" >
+            <p>妹纸</p> -->
+            <p>
+        我是妹子UI，中国首个开源 HTML5 跨屏前端框架
+        </p><p>我不想成为一个庸俗的人。十年百年后，当我们死去，质疑我们的人同样死去，后人看到的是裹足不前、原地打转的你，还是一直奔跑、走到远方的我？</p>
+        </div>
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>Contact ME</span></h2>
+            <p>
+                <a href=""><span class="am-icon-qq am-icon-fw am-primary blog-icon"></span></a>
+                <a href=""><span class="am-icon-github am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-weibo am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-reddit am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-weixin am-icon-fw blog-icon"></span></a>
+            </p>
+        </div>
+        <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>TAG</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+            <a href="" class="blog-tag">amaze</a>
+            <a href="" class="blog-tag">妹纸 UI</a>
+            <a href="" class="blog-tag">HTML5</a>
+            <a href="" class="blog-tag">这是标签</a>
+            <a href="" class="blog-tag">Impossible</a>
+            <a href="" class="blog-tag">开源前端框架</a>
+            </div>
+        </div>
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>心情</span></h2>
+            <ul class="am-list">
+                <li><a href="#">每个人都有一个死角， 自己走不出来，别人也闯不进去。</a></li>
+                <li><a href="#">我把最深沉的秘密放在那里。</a></li>
+                <li><a href="#">你不懂我，我不怪你。</a></li>
+                <li><a href="#">每个人都有一道伤口， 或深或浅，盖上布，以为不存在。</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- content end -->
+
+<!-- footer start -->
+<include file="Public/footer" />
+<!-- footer end  -->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+<script>
+$(function(){
+    var page = 2;
+    $(".more").click(function(){
+        var path = "{:U('Index/index')}";
+        var _this = $(this);
+        $.post(path,{page:page},function(data){
+            if (data == "") {
+                _this.html('没有更多了');
+                return false;
+            }
+            console.log(data);
+            var str = '';
+            var a_id = "/index.php/Home/Article/ArticleContent/a_id/";
+            for (var i = 0; i <= data.length - 1; i++) {
+                str += '<article class="am-g blog-entry-article">';
+                str += '<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">';
+                str += '<img src="__PUBLIC__'+data[i]['article_img']+'" alt="" class="am-u-sm-12">';
+                str += '</div>';
+                str += '<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">';
+                str += '<span><a href="" class="blog-color">article &nbsp;</a></span>';
+                str += '<span> @amazeUI &nbsp;</span>';
+                str += '<span>'+data[i].article_time+'</span>';
+                str += "<h1><a href='"+a_id+data[i].a_id+"' target='_slef'>"+data[i].article_name+"</a></h1>";
+                str += "<p>"+data[i].article_content+"...</p>";
+                str += '<p><a href="" class="blog-continue">continue reading</a></p>';
+                str += '</div>';
+                str += '</article>';
+            }
+           
+            $("#article_list").append(str);
+            page+=1;
+        },"json");
+    });
+})
+</script>
+<!-- <script src="__PUBLIC__/assets/js/app.js"></script> -->
+</body>
+</html>

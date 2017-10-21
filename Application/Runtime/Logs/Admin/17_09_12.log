@@ -1,0 +1,1293 @@
+[ 2017-09-12T09:57:10+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T09:58:05+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T09:58:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T09:58:13+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T09:58:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T09:58:22+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:01:00+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:01:14+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('ee1','3','','/images/2017-09-12/59b74dfa01284.jpg','1505185274') [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:01:15+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:02:33+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T11:02:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('fefef','3','&lt;p&gt;efefefaefefef&lt;br/&gt;&lt;/p&gt;','/images/2017-09-12/59b74e59b0cf7.jpg','1505185369') [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:02:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T11:03:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:03:47+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:05:14+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('fffffffffffffffff','3','&lt;p&gt;efefafeasfef&lt;/p&gt;','/images/','1505185513') [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T11:05:15+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T15:08:26+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:08:30+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T15:08:35+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:08:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:08:36+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:09:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('给sourcetreepe配置beyond compare','3','&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;beyond compare工具做文件、目录对比超级给力，可以说是全网最好的比对工具。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;下面简单介绍一下配制方法：&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;系统：MAC OS 10.12.6&amp;nbsp;&lt;/p&gt;&lt;ol class=&quot; list-paddingleft-2&quot; style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-bottom: 10px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px;&quot;&gt;下载安装beyond compare&amp;nbsp;&lt;a href=&quot;http://www.scootersoftware.com/download.php&quot; style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; color: rgb(0, 150, 136); text-decoration-line: none;&quot;&gt;http://www.scootersoftware.com/download.php&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px;&quot;&gt;sudo ln -s /Applications/Beyond\\ Compare.app/Contents/MacOS/bcomp /usr/bin/&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px;&quot;&gt;打开sourcetree的[偏好设置]&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;比较命令: /usr/bin/bcomp&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;参数:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;LOCAL&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;REMOTE&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;合并命令: /usr/bin/bcomp&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;参数:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;LOCAL&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;REMOTE&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;BASE&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px;&quot;&gt;MERGED&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;https://blog-kunx-org.b0.upaiyun.com/uploads/2017/08/27/1503845568847002.png&quot; title=&quot;1503845568847002.png&quot; alt=&quot;1503845568847002.png&quot; width=&quot;600&quot; height=&quot;443&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;4.以后再sourcetree进行对比合并的话可以选择beyond compare了&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','/images/2017-09-12/59b7882540011.jpg','1505200165') [ RunTime:0.0510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T15:09:26+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:15:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T15:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T15:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T15:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('给你的php安装php_mysql扩展','3','&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在PHP中mysql_connect模块已经逐渐被弃用，我在搭建环境时也没有再安装mysql扩展，但是今天在维护一个老项目时，出现报错&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;Fatal error: Uncaught Error: Call to undefined function mysql_connect()&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;发现如果php和mysql都已经安装完成了，可以使用phpize工具手动编译生成mysql.so扩展来解决&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;下面是操作步骤：&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;1.进入php源码的ext/mysql目录&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter bash&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;bash functions&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 20, 147) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;cd&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;/usr/local/src/php-5&lt;/code&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;.6.29&lt;/code&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;/ext/mysql/&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;2.运行phpize，在该目录下生成一个configure文件（php安装目录：/usr/local/php/）&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter bash&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;/usr/local/php/bin/phpize&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;3.运行configure，指明php-config文件位置（/usr/local/php/bin/php-config）和mysql安装目录（/usr/local/mysql/）&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter bash&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;bash spaces&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(199, 37, 78); box-sizing: content-box !important; padding: 0px !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;.&lt;/code&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;/configure&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;--with-php-config=&lt;/code&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;/usr/local/php/bin/php-config&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;--with-mysql=&lt;/code&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;/usr/local/mysql/&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;4.编译安装，生成mysql.so&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter bash&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;bash functions&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 20, 147) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;make&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;bash functions&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 20, 147) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;make&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;bash functions&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 20, 147) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;install&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;5.修改php.ini文件，添加mysql.so扩展配置，保存退出&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter bash&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;extension=mysql.so&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;6.重启php-fpm&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter bash&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;bash plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;service&amp;nbsp;php-fpm&amp;nbsp;restart&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;7.测试，在web目录下添加php文件，如/usr/local/nginx/html/mysql.php&lt;/p&gt;&lt;table class=&quot;syntaxhighlighter php&quot; width=&quot;755&quot;&gt;&lt;tbody style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;tr style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot; class=&quot;firstRow&quot;&gt;&lt;td class=&quot;gutter&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 9.5px 0px 9.5px 9.5px !important; border-radius: 4px 0px 0px 4px !important; background: none rgb(247, 247, 249) !important; border-top: 0px !important; border-bottom: 0px !important; border-left: 0px !important; border-right-color: rgb(225, 225, 232) !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important; color: rgb(175, 175, 175) !important; user-select: none !important;&quot; width=&quot;NaN&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line number2 index1 alt1&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line number3 index2 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line number4 index3 alt1&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line number5 index4 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line number6 index5 alt1&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line number7 index6 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; word-wrap: normal; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em 0px 1em !important; position: static !important; right: auto !important; text-align: right !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important; white-space: pre !important;&quot;&gt;7&lt;/div&gt;&lt;/td&gt;&lt;td class=&quot;code&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; padding: 0px !important; border-radius: 0px !important; background: none !important; border-width: 0px !important; border-style: initial !important; border-color: initial !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; min-height: auto !important;&quot; width=&quot;717&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;lt;?php&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number2 index1 alt1&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php variable&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(170, 119, 0) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;$con&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;=&amp;nbsp;mysql_connect(&lt;/code&gt;&lt;code class=&quot;php string&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: blue !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;#39;localhost&amp;#39;&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;,&lt;/code&gt;&lt;code class=&quot;php string&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: blue !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;#39;root&amp;#39;&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;,&lt;/code&gt;&lt;code class=&quot;php string&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: blue !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;#39;&amp;#39;&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;);&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number3 index2 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php keyword&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 120, 0) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; font-weight: bold !important; min-height: auto !important;&quot;&gt;if&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;(&lt;/code&gt;&lt;code class=&quot;php variable&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(170, 119, 0) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;$con&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;){&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number4 index3 alt1&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php spaces&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(199, 37, 78); box-sizing: content-box !important; padding: 0px !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;php keyword&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 120, 0) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; font-weight: bold !important; min-height: auto !important;&quot;&gt;die&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;(&lt;/code&gt;&lt;code class=&quot;php string&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: blue !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;#39;ok&amp;#39;&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;);&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number5 index4 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;}&lt;/code&gt;&lt;code class=&quot;php keyword&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 120, 0) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; font-weight: bold !important; min-height: auto !important;&quot;&gt;else&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;{&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number6 index5 alt1&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php spaces&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(199, 37, 78); box-sizing: content-box !important; padding: 0px !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;php keyword&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: rgb(255, 120, 0) !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; font-weight: bold !important; min-height: auto !important;&quot;&gt;die&lt;/code&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;(&lt;/code&gt;&lt;code class=&quot;php string&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: blue !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&amp;#39;Could&amp;nbsp;not&amp;nbsp;connect:&amp;nbsp;&amp;#39;&lt;/code&gt;&amp;nbsp;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;.&amp;nbsp;mysql_error());&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number7 index6 alt2&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: content-box !important; border-radius: 0px !important; background: none !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;php plain&quot; style=&quot;-webkit-tap-highlight-color: transparent; font-family: Monaco, Menlo, Consolas, &amp;quot;Courier New&amp;quot;, monospace; box-sizing: content-box !important; padding: 0px !important; color: black !important; background: none !important; border-radius: 0px !important; border: 0px !important; bottom: auto !important; float: none !important; left: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; position: static !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: auto !important; min-height: auto !important;&quot;&gt;}&lt;/code&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;访问URL，如：http://192.168.8.9/mysql.php&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;显示ok，则配置成功&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-top: 0px; margin-bottom: 10px; line-height: 25px; color: rgb(51, 51, 51); font-family: RobotoDraft, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;除此之外，可以到&lt;a href=&quot;http://git.php.net/?p=pecl/database/mysql.git;a=summary&quot; style=&quot;box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; color: rgb(0, 150, 136); text-decoration-line: none;&quot;&gt;http://git.php.net/?p=pecl/database/mysql.git;a=summary&lt;/a&gt;下载php_mysql扩展的源代码&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','/images/2017-09-12/59b789b037d90.jpg','1505200560') [ RunTime:0.1830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T15:16:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2790s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T15:29:03+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:29:05+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T15:29:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2400s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:29:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:29:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T15:29:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T15:29:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:29:47+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_img`,`article_time`) VALUES ('Centos7搭建pptp一键安装脚本','3','/images/2017-09-12/59b78ceb63a00.jpg','1505201387') [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:29:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:30:32+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:30:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2420s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:30:36+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:30:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2420s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:30:39+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T15:31:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('Windows操作系统连接vpn','3','&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;话不多说，先上脚本地址：&lt;a href=&quot;https://raw.githubusercontent.com/DanylZhang/VPS/master/CentOS7-pptp-host1plus.sh&quot; target=&quot;_blank&quot; style=&quot;text-decoration-line: none; box-sizing: border-box; color: rgb(12, 137, 207);&quot;&gt;Centos7一键pptp&lt;/a&gt;&lt;/p&gt;&lt;h2 style=&quot;margin: 0.8em 0px; padding: 0px; box-sizing: border-box; font-weight: 100; line-height: 1.3em; font-size: 2.13em; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a target=&quot;_blank&quot; style=&quot;box-sizing: border-box; color: rgb(12, 137, 207);&quot;&gt;&lt;/a&gt;使用：&lt;/h2&gt;&lt;pre class=&quot;prettyprint&quot; style=&quot;white-space: nowrap; word-wrap: break-word; box-sizing: border-box; position: relative; overflow-y: hidden; overflow-x: auto; margin-top: 0px; margin-bottom: 1.1em; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 5px 5px 5px 60px; font-size: 14px; line-height: 1.45; word-break: break-all; color: rgb(51, 51, 51); background-color: rgba(128, 128, 128, 0.05); border: 0px solid rgb(136, 136, 136); border-radius: 0px;&quot;&gt;wget&amp;nbsp;https://raw.githubusercontent.com/DanylZhang/VPS/master/CentOS7-pptp-host1plus.shchmod&amp;nbsp;+x&amp;nbsp;./CentOS7-pptp-host1plus.sh./CentOS7-pptp-host1plus.sh&amp;nbsp;-u&amp;nbsp;your_username&amp;nbsp;-p&amp;nbsp;your_password123&lt;/pre&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;可在&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;-u&lt;/code&gt;、&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;-p&lt;/code&gt;后随意更改自己的登录用户名和密码。但密码长度必须&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;大于8个&lt;/strong&gt;&amp;nbsp;ASCII字符，否则为了安全，脚本将会随机生成密码。&lt;/p&gt;&lt;h2 style=&quot;margin: 0.8em 0px; padding: 0px; box-sizing: border-box; font-weight: 100; line-height: 1.3em; font-size: 2.13em; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a target=&quot;_blank&quot; style=&quot;box-sizing: border-box; color: rgb(12, 137, 207);&quot;&gt;&lt;/a&gt;Windows操作系统连接vpn详细过程截图：&lt;/h2&gt;&lt;hr/&gt;&lt;h3 style=&quot;margin: 0.8em 0px; padding: 0px; box-sizing: border-box; font-weight: 100; line-height: 1.3em; font-size: 1.73em; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a target=&quot;_blank&quot; style=&quot;box-sizing: border-box; color: rgb(12, 137, 207);&quot;&gt;&lt;/a&gt;进入控制面板&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172733761&quot; alt=&quot;选择网络和共享中心&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172755936&quot; alt=&quot;设置新的连接&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172839324&quot; alt=&quot;这里写图片描述&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172851719&quot; alt=&quot;这里写图片描述&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172906781&quot; alt=&quot;这里写图片描述&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;h3 style=&quot;margin: 0.8em 0px; padding: 0px; box-sizing: border-box; font-weight: 100; line-height: 1.3em; font-size: 1.73em; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a target=&quot;_blank&quot; style=&quot;box-sizing: border-box; color: rgb(12, 137, 207);&quot;&gt;&lt;/a&gt;然后更改新建立的vpn连接的设置&lt;/h3&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172922246&quot; alt=&quot;这里写图片描述&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160216172940902&quot; alt=&quot;这里写图片描述&quot; title=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;注：&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;如果你无法访问一些特定网站，建议你修改ppp接口的MTU（很多时候能连接vpn但是无法打开某些网页也可能跟这个有关系）&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;输入&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;vi /etc/ppp/ip-up&lt;/code&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;在倒数第二行加入如下内容：&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;/sbin/ifconfig $1 mtu 1400&lt;/code&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;缺省 MTU:1496&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;保存后需要重启PPTP服务器，指令如下:&amp;nbsp;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;systemctl restart pptpd&lt;/code&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;也可以不更改&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;ip-up&lt;/code&gt;文件，而是在&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;/etc/ppp/&lt;/code&gt;下新建&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;ip-up.local&lt;/code&gt;文件。指令如下：&lt;/p&gt;&lt;pre class=&quot;prettyprint&quot; style=&quot;white-space: nowrap; word-wrap: break-word; box-sizing: border-box; position: relative; overflow-y: hidden; overflow-x: auto; margin-top: 0px; margin-bottom: 1.1em; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 5px 5px 5px 60px; font-size: 14px; line-height: 1.45; word-break: break-all; color: rgb(51, 51, 51); background-color: rgba(128, 128, 128, 0.05); border: 0px solid rgb(136, 136, 136); border-radius: 0px;&quot;&gt;cat&amp;nbsp;&amp;gt;&amp;nbsp;/etc/ppp/ip-up.local&amp;nbsp;&amp;lt;&amp;lt;&amp;nbsp;END
+/sbin/ifconfig&amp;nbsp;$1&amp;nbsp;mtu&amp;nbsp;1400END
+chmod&amp;nbsp;+x&amp;nbsp;/etc/ppp/ip-up.local1234&lt;/pre&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;该脚本使用的是后者。&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 1.1em; padding: 0px; box-sizing: border-box; color: rgb(63, 63, 63); font-family: &amp;quot;microsoft yahei&amp;quot;; font-size: 15px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;附上其他&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;linux&lt;/code&gt;发行版的&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Source Code Pro&amp;quot;, monospace; padding: 2px 4px; font-size: 13.5px; background-color: rgba(128, 128, 128, 0.075); white-space: nowrap; border-radius: 0px;&quot;&gt;pptp vpn&lt;/code&gt;一键安装脚本的Github地址：&lt;a href=&quot;https://github.com/DanylZhang/VPS&quot; target=&quot;_blank&quot; style=&quot;text-decoration-line: none; box-sizing: border-box; color: rgb(12, 137, 207);&quot;&gt;pptp一键脚本&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','/images/2017-09-12/59b78d39b8b41.png','1505201465') [ RunTime:0.0790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2630s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T20:20:51+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T20:20:54+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T20:20:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T20:20:59+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T20:21:24+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.2540s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T20:21:26+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

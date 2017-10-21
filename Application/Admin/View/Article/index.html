@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Amaze UI Admin index Examples</title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="__PUBLIC__/assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="__PUBLIC__/assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="__PUBLIC__/assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+<!-- header start -->
+ <include file="Public/header" />
+<!-- header end-->
+
+<div class="am-cf admin-main">
+  <!-- sidebar start -->
+  <include file="Public/sidebar" />
+  <!-- sidebar end -->
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding">
+      <select name="article_category_id" id="select-type">
+          <option value="" selected="selected">---请选择分类---</option>
+        <!-- <select data-am-selected="{maxHeight: 100}" name="article_category_id"> -->
+          <foreach name="categoryList" item="val">
+            <option value="{$val.c_id}">{$val.category_name}</option>
+            <foreach name="val.son" item="v">
+            <option value="{$v.c_id}">---{$v.category_name}</option>
+            </foreach>
+          </foreach>
+        </select>
+      <a class="am-btn am-btn-primary am-round am-fr" href="{:U('Article/ArticleAdd')}"><i class="am-icon-plus"></i>写新文章</a>
+      <hr>
+            <table class="am-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>状态</th>
+            <th>发表时间</th>
+            <th>阅读</th>
+            <th>评论</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody id="article-list">
+        <foreach name="articleList" item="val">
+        <tr>
+            <td>{$val.article_name}</td>
+            <td><a href="#"><span class="am-icon-eye-slash "></span></a></td>
+            <td>{:date("Y-m-d H:i:s",$val['article_time'])}</td>
+            <td>2012-10-01</td>
+            <td>Amaze UI</td>
+            <td>
+              <div class="am-btn-group am-btn-group-xs">
+                <button type="button" class="am-btn am-btn-default">编辑</button>
+                <button type="button" class="am-btn am-btn-default">置顶</button>
+                <button type="button" class="am-btn am-btn-default">删除</button>
+                <button type="button" class="am-btn am-btn-default">分类</button>
+              </div>
+            </td>
+        </tr>
+        </foreach>
+    </tbody>
+</table>
+        </div>
+      </div>
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+  <!-- content end -->
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.ie8polyfill.min.js"></scrfipt>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/assets/js/app.js"></script>
+
+<!-- 自定义jquery -->
+<script>
+$(function(){
+  $("#select-type").change(function(){
+    var c_id = $(this).val();
+    var path = "{:U('Article/ajaxSelectCategory')}"
+    $.post(path,{c_id:c_id},function(data){
+      var str = "";
+      var obj = $("#pnt-eidt").clone();
+      for (var i = 0; i < data.length; i++) {
+          str += "<tr>";
+            str += "<td>"+data[i].article_name+"</td>";
+            str += "<td><a href='#'><span class='am-icon-eye-slash'></span></a></td>";
+            str += "<td>"+data[i].article_time+"</td>";
+            str += "<td>"+data[i].article_name+"</td>";
+            str += "<td>"+data[i].article_name+"</td>";
+            str += "<td>";
+            str += "<div class='am-btn-group am-btn-group-xs'>";
+              str += "<button type='button' class='am-btn am-btn-default'>编辑</button>";
+              str += "<button type='button' class='am-btn am-btn-default'>置顶</button>";
+              str += "<button type='button' class='am-btn am-btn-default'>删除</button>";
+              str += "<button type='button' class='am-btn am-btn-default'>分类</button>";
+            str += "</div>";
+            str += "</td>";
+          str += "<tr/>"
+      }
+        $("#article-list").html(str);
+    },"json")
+  })
+})
+</script>
+</body>
+</html>

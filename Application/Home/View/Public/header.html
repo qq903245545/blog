@@ -1,0 +1,22 @@
+<header class="am-g  blog-text-center blog-header">
+    <div class="am-u-sm-8 am-u-sm-centered">
+        <img width="80" src="http://p1.qzone.la/upload/5/c7b07bda-bd9c-495a-ad02-fa8103c85110.jpg" alt="Amaze UI Logo" class="am-circle" />
+        <h2 class="am-hide-sm-only">不积跬步，无以至千里</h2>
+    </div>
+</header>
+<nav class="am-g am-g-fixed blog-fixed blog-nav">
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only blog-button" data-am-collapse="{target: '#blog-collapse'}" ><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="blog-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav">
+      <li class="am-active"><a href="{:U('Index/index')}">首页</a></li>
+      <li><a href="{:U('Article/ArticleCategory')}" target="">博文</a></li>
+    </ul>
+    <form class="am-topbar-form am-topbar-right am-form-inline" role="search" method="post" action="{:U('Article/SearchArticle')}">
+      <div class="am-form-group">
+        <input type="text" class="am-form-field am-input-sm" placeholder="搜索" name="search_word">
+      </div>
+    </form>
+  </div>
+</nav>
+<hr>
