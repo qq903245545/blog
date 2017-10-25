@@ -1,0 +1,869 @@
+[ 2017-10-24T13:01:02+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-24T13:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-24T13:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-24T13:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-24T13:02:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-24T13:02:14+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0312s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:02:15+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0372s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0680s ]
+
+[ 2017-10-24T13:02:16+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=253 ) LIMIT 1   [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:02:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:1.0598s ]
+
+[ 2017-10-24T13:02:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0390s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:02:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0410s ]
+
+[ 2017-10-24T13:02:22+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0450s ]
+
+[ 2017-10-24T13:02:26+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0312s ]
+
+[ 2017-10-24T13:02:30+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0720s ]
+
+[ 2017-10-24T13:02:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0316s ]
+
+[ 2017-10-24T13:02:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0624s ]
+
+[ 2017-10-24T13:40:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0312s ]
+
+[ 2017-10-24T13:40:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0346s ]
+
+[ 2017-10-24T13:40:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0280s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:40:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:40:59+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0678s ]
+
+[ 2017-10-24T13:41:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0206s ]
+
+[ 2017-10-24T13:41:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0570s ]
+
+[ 2017-10-24T13:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0372s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=253 ) LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0280s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:41:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=250 ) LIMIT 1   [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:41:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0624s ]
+
+[ 2017-10-24T13:41:14+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0310s ]
+
+[ 2017-10-24T13:41:17+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0240s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:41:18+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0156s ]
+
+[ 2017-10-24T13:41:23+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:41:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-24T13:41:34+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-24T13:41:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-24T13:41:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-24T13:41:47+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-24T13:41:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-24T13:42:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0310s ]
+
+[ 2017-10-24T13:42:41+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:42:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0290s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+
+[ 2017-10-24T13:42:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0682s ]
+
+[ 2017-10-24T13:42:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0320s ]
+
+[ 2017-10-24T13:42:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0610s ]
+
+[ 2017-10-24T13:42:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+NOTIC: [8] Undefined index: son F:\blog\Application\Runtime\Cache\Admin\d62f6d82e8b458b3735c24a88ec19113.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-24T13:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0156s ]
+

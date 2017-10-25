@@ -110,7 +110,6 @@ $(function(){
     var path = "{:U('Article/ajaxSelectCategory')}"
     $.post(path,{c_id:c_id},function(data){
       var str = "";
-      var obj = $("#pnt-eidt").clone();
       for (var i = 0; i < data.length; i++) {
           str += "<tr>";
             str += "<td>"+data[i].article_name+"</td>";

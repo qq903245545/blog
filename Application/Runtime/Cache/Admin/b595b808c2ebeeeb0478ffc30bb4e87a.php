@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <link rel="icon" type="image/png" href="/blog/Public/assets/i/favicon.png">
-  <link rel="apple-touch-icon-precomposed" href="/blog/Public/assets/i/app-icon72x72@2x.png">
+  <link rel="icon" type="image/png" href="/Public/assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="/Public/assets/i/app-icon72x72@2x.png">
   <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-  <link rel="stylesheet" href="/blog/Public/assets/css/amazeui.min.css"/>
-  <link rel="stylesheet" href="/blog/Public/assets/css/admin.css">
+  <link rel="stylesheet" href="/Public/assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="/Public/assets/css/admin.css">
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -189,27 +189,27 @@
                   <th>访问量</th>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/blog/Public/assets/i/examples/admin-chrome.png" alt=""></td>
+                  <td class="am-text-center"><img src="/Public/assets/i/examples/admin-chrome.png" alt=""></td>
                   <td>Google Chrome</td>
                   <td>3,005</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/blog/Public/assets/i/examples/admin-firefox.png" alt=""></td>
+                  <td class="am-text-center"><img src="/Public/assets/i/examples/admin-firefox.png" alt=""></td>
                   <td>Mozilla Firefox</td>
                   <td>2,505</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/blog/Public/assets/i/examples/admin-ie.png" alt=""></td>
+                  <td class="am-text-center"><img src="/Public/assets/i/examples/admin-ie.png" alt=""></td>
                   <td>Internet Explorer</td>
                   <td>1,405</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/blog/Public/assets/i/examples/admin-opera.png" alt=""></td>
+                  <td class="am-text-center"><img src="/Public/assets/i/examples/admin-opera.png" alt=""></td>
                   <td>Opera</td>
                   <td>4,005</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/blog/Public/assets/i/examples/admin-safari.png" alt=""></td>
+                  <td class="am-text-center"><img src="/Public/assets/i/examples/admin-safari.png" alt=""></td>
                   <td>Safari</td>
                   <td>505</td>
                 </tr>
@@ -235,13 +235,13 @@
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="/blog/Public/assets/js/amazeui.ie8polyfill.min.js"></script>
+<script src="/Public/assets/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="/blog/Public/assets/js/jquery.min.js"></script>
+<script src="/Public/assets/js/jquery.min.js"></script>
 <!--<![endif]-->
-<script src="/blog/Public/assets/js/amazeui.min.js"></script>
-<script src="/blog/Public/assets/js/app.js"></script>
+<script src="/Public/assets/js/amazeui.min.js"></script>
+<script src="/Public/assets/js/app.js"></script>
 </body>
 </html>

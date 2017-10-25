@@ -9,19 +9,19 @@
   <title>BLOG  | Amaze UI Examples</title>
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
-  <link rel="icon" type="image/png" href="/blog/Public/assets/i/favicon.png">
+  <link rel="icon" type="image/png" href="/Public/assets/i/favicon.png">
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="/blog/Public/assets/i/app-icon72x72@2x.png">
+  <link rel="icon" sizes="192x192" href="/Public/assets/i/app-icon72x72@2x.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-  <link rel="apple-touch-icon-precomposed" href="/blog/Public/assets/i/app-icon72x72@2x.png">
-  <meta name="msapplication-TileImage" content="/blog/Public/assets/i/app-icon72x72   2x.png">
+  <link rel="apple-touch-icon-precomposed" href="/Public/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="/Public/assets/i/app-icon72x72   2x.png">
   <meta name="msapplication-TileColor" content="#0e90d2">
-  <link rel="stylesheet" href="/blog/Public/assets/css/amazeui.min.css">
-  <link rel="stylesheet" href="/blog/Public/assets/css/app.css">
+  <link rel="stylesheet" href="/Public/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="/Public/assets/css/app.css">
 
-<link href="/blog/Public/assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="/Public/assets/css/main.css" rel="stylesheet" type="text/css">
   <style>
     @media only screen and (min-width: 641px) {
       .am-offcanvas {
@@ -217,8 +217,8 @@
 </style>
 <!-- footer end  -->
 
-<script src="/blog/Public/assets/js/jquery.min.js"></script>
-<script src="/blog/Public/assets/js/amazeui.min.js"></script>
+<script src="/Public/assets/js/jquery.min.js"></script>
+<script src="/Public/assets/js/amazeui.min.js"></script>
 
 </body>
 </html>

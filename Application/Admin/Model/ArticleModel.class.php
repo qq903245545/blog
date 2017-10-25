@@ -12,7 +12,7 @@ class ArticleModel extends Model {
    );
 
 	/**
-	 * 查找所以文章
+	 * 查找所有文章
 	 * @return array 查找的文章数据
 	 */
 	public function articleSelect(){

@@ -9,17 +9,17 @@
   <title>BLOG  | Amaze UI Examples</title>
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
-  <link rel="icon" type="image/png" href="/blog/Public/assets/i/favicon.png">
+  <link rel="icon" type="image/png" href="/Public/assets/i/favicon.png">
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="/blog/Public/assets/i/app-icon72x72@2x.png">
+  <link rel="icon" sizes="192x192" href="/Public/assets/i/app-icon72x72@2x.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-  <link rel="apple-touch-icon-precomposed" href="/blog/Public/assets/i/app-icon72x72@2x.png">
-  <meta name="msapplication-TileImage" content="/blog/Public/assets/i/app-icon72x72@2x.png">
+  <link rel="apple-touch-icon-precomposed" href="/Public/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="/Public/assets/i/app-icon72x72@2x.png">
   <meta name="msapplication-TileColor" content="#0e90d2">
-  <link rel="stylesheet" href="/blog/Public/assets/css/amazeui.min.css">
-  <link rel="stylesheet" href="/blog/Public/assets/css/app.css">
+  <link rel="stylesheet" href="/Public/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="/Public/assets/css/app.css">
 </head>
 
 <body id="blog">
@@ -56,7 +56,7 @@
         <div id="article_list">
          <?php if(is_array($articleList)): foreach($articleList as $key=>$val): ?><article class="am-g blog-entry-article">
                 <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="/blog/Public<?php echo ($val["article_img"]); ?>" alt="" class="am-u-sm-12">
+                    <img src="/Public<?php echo ($val["article_img"]); ?>" alt="" class="am-u-sm-12">
                 </div>
                 <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
                     <span><a href="" class="blog-color">article &nbsp;</a></span>
@@ -77,7 +77,7 @@
     <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
         <div class="blog-sidebar-widget blog-bor">
             <h2 class="blog-text-center blog-title"><span>关于博客</span></h2>
-        <!--     <img src="/blog/Public/assets/i/f14.jpg" alt="about me" class="blog-entry-img" >
+        <!--     <img src="/Public/assets/i/f14.jpg" alt="about me" class="blog-entry-img" >
             <p>妹纸</p> -->
             <p>
         我是妹子UI，中国首个开源 HTML5 跨屏前端框架
@@ -135,9 +135,9 @@
 <!-- footer end  -->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="/blog/Public/assets/js/jquery.min.js"></script>
+<script src="/Public/assets/js/jquery.min.js"></script>
 <!--<![endif]-->
-<script src="/blog/Public/assets/js/amazeui.min.js"></script>
+<script src="/Public/assets/js/amazeui.min.js"></script>
 <script>
 $(function(){
     var page = 2;
@@ -155,7 +155,7 @@ $(function(){
             for (var i = 0; i <= data.length - 1; i++) {
                 str += '<article class="am-g blog-entry-article">';
                 str += '<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">';
-                str += '<img src="/blog/Public'+data[i]['article_img']+'" alt="" class="am-u-sm-12">';
+                str += '<img src="/Public'+data[i]['article_img']+'" alt="" class="am-u-sm-12">';
                 str += '</div>';
                 str += '<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">';
                 str += '<span><a href="" class="blog-color">article &nbsp;</a></span>';
@@ -174,6 +174,6 @@ $(function(){
     });
 })
 </script>
-<!-- <script src="/blog/Public/assets/js/app.js"></script> -->
+<!-- <script src="/Public/assets/js/app.js"></script> -->
 </body>
 </html>

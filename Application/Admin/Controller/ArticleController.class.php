@@ -20,7 +20,8 @@ class ArticleController extends CommonController {
         if ($res['cat_son_id'] !=0 ) {  //查找二级分类文章
             $articleData = D('Article')->categoryArticleSelect($res['c_id']);
         } else {  //查找顶级分类包括子分类下的文章
-            D('Category')-
+            $allList = D('Category')->allCategory($res['cat_son_id']);  //查找该分类下的子分类
+            echo json_encode($allList);die;
         }
 
         foreach ($articleData as $key => $value) {

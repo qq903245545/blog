@@ -29,5 +29,14 @@ class CategoryModel extends Model {
 		return M('Category')->where("c_id={$cId}")->find(); //查询当前分类内容
 	}
 
+	/**
+	 * 查询该分类下的子分类
+	 * @param  id $catSonId 要查询该分类的id
+	 * @return array           该子分类id
+	 */
+	public function allCategory($catSonId){
+		return M('Category')->field('c_id')->where("c_id={$catSonId}")->select();
+	}
+
 }
  ?>
