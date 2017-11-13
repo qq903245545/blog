@@ -35,7 +35,7 @@ class CategoryModel extends Model {
 	 * @return array           该子分类id
 	 */
 	public function allCategory($catSonId){
-		return M('Category')->field('c_id')->where("c_id={$catSonId}")->select();
+		return M('Category')->field('c_id')->where("cat_son_id={$catSonId}")->select();
 	}
 
 }

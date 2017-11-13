@@ -8,9 +8,9 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <link rel="alternate icon" type="image/png" href="/blog/Public/assets/i/favicon.png">
-  <link rel="stylesheet" href="/blog/Public/assets/css/amazeui.min.css"/>
-  <link rel="stylesheet" href="/blog/Public/assets/css/app.css">
+  <link rel="alternate icon" type="image/png" href="/Public/assets/i/favicon.png">
+  <link rel="stylesheet" href="/Public/assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="/Public/assets/css/app.css">
   <style>
     @media only screen and (min-width: 641px) {
       .am-offcanvas {
@@ -161,7 +161,7 @@
 </style>
 <!-- footer end  -->
 
-<script src="/blog/Public/assets/js/jquery.min.js"></script>
-<script src="/blog/Public/assets/js/amazeui.min.js"></script>
+<script src="/Public/assets/js/jquery.min.js"></script>
+<script src="/Public/assets/js/amazeui.min.js"></script>
 </body>
 </html>

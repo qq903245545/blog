@@ -1,0 +1,1223 @@
+[ 2017-11-13T18:26:10+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:26:12+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-13T18:26:13+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-13T18:26:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0340s ]
+
+[ 2017-11-13T18:26:23+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0230s ]
+
+[ 2017-11-13T18:26:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0230s ]
+
+[ 2017-11-13T18:26:26+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T18:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T18:26:29+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0240s ]
+
+[ 2017-11-13T18:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0290s ]
+
+[ 2017-11-13T18:26:37+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:26:41+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:26:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:26:44+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-13T18:29:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/ArticleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\blog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: validate F:\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: INSERT INTO `article` (`article_name`,`article_category_id`,`article_content`,`article_img`,`article_time`) VALUES ('mysql 索引','6','&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;首先:先假设有一张表,表的数据有10W条数据,其中有一条数据是nickname=&amp;#39;css&amp;#39;,如果要拿这条数据的话需要些的sql是 SELECT * FROM award WHERE nickname = &amp;#39;css&amp;#39;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;一般情况下,在没有建立索引的时候,mysql需要扫描全表及扫描10W条数据找这条数据,如果我在nickname上建立索引,那么mysql只需要扫描一行数据及为我们找到这条nickname=&amp;#39;css&amp;#39;的数据,是不是感觉性能提升了好多咧....&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;mysql的索引分为&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;单列索引&lt;/span&gt;(主键索引,唯索引,普通索引)和&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;组合索引&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;单列索引:一个索引只包含一个列,一个表可以有多个单列索引.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;组合索引:一个组合索引包含两个或两个以上的列,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;本文使用的案例的表&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;padding-right: 5px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;color: rgb(51, 153, 255); border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;CREATE&amp;nbsp;TABLE&amp;nbsp;`award`&amp;nbsp;(
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`id`&amp;nbsp;int(11)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;AUTO_INCREMENT&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;用户id&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`aty_id`&amp;nbsp;varchar(100)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;&amp;#39;&amp;#39;&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;活动场景id&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`nickname`&amp;nbsp;varchar(12)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;&amp;#39;&amp;#39;&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;用户昵称&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`is_awarded`&amp;nbsp;tinyint(1)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;0&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;用户是否领奖&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`award_time`&amp;nbsp;int(11)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;0&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;领奖时间&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`account`&amp;nbsp;varchar(12)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;&amp;#39;&amp;#39;&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;帐号&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`password`&amp;nbsp;char(32)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;&amp;#39;&amp;#39;&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;密码&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`message`&amp;nbsp;varchar(255)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;&amp;#39;&amp;#39;&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;获奖信息&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`created_time`&amp;nbsp;int(11)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;0&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;创建时间&amp;#39;,
+&amp;nbsp;&amp;nbsp;&amp;nbsp;`updated_time`&amp;nbsp;int(11)&amp;nbsp;NOT&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;0&amp;nbsp;COMMENT&amp;nbsp;&amp;#39;更新时间&amp;#39;,&amp;nbsp;&amp;nbsp;&amp;nbsp;PRIMARY&amp;nbsp;KEY&amp;nbsp;(`id`)
+&amp;nbsp;)&amp;nbsp;ENGINE=InnoDB&amp;nbsp;AUTO_INCREMENT=1&amp;nbsp;DEFAULT&amp;nbsp;CHARSET=utf8&amp;nbsp;COMMENT=&amp;#39;获奖信息表&amp;#39;;&lt;/pre&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;padding-right: 5px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;color: rgb(51, 153, 255); border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px;&quot;&gt;(一)索引的创建&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px;&quot;&gt;1.单列索引&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1-1) &amp;nbsp; &amp;nbsp;普通索引,这个是最基本的索引,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;其sql格式是 CREATE INDEX IndexName ON `TableName`(`字段名`(length)) 或者 ALTER TABLE TableName ADD INDEX IndexName(`字段名`(length))&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;strong&gt;第一种方式 :&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;&amp;nbsp;&amp;nbsp;CREATE&amp;nbsp;INDEX&amp;nbsp;account_Index&amp;nbsp;ON&amp;nbsp;`award`(`account`);&lt;/pre&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;第二种方式:&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;ALTER&amp;nbsp;TABLE&amp;nbsp;award&amp;nbsp;ADD&amp;nbsp;INDEX&amp;nbsp;account_Index(`account`)&lt;/pre&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;如果是CHAR,VARCHAR,类型,length可以小于字段的实际长度,如果是BLOB和TEXT类型就必须指定长度,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1-2) &amp;nbsp; &amp;nbsp;唯一索引,与普通索引类似,但是不同的是唯一索引要求所有的类的值是唯一的,这一点和主键索引一样.但是他允许有空值,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;其sql格式是&amp;nbsp;CREATE UNIQUE INDEX IndexName ON `TableName`(`字段名`(length)); 或者&amp;nbsp;ALTER&amp;nbsp;TABLE&amp;nbsp;TableName&amp;nbsp;ADD&amp;nbsp;UNIQUE&amp;nbsp;(column_list) &amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;CREATE&amp;nbsp;UNIQUE&amp;nbsp;INDEX&amp;nbsp;account_UNIQUE_Index&amp;nbsp;ON&amp;nbsp;`award`(`account`);&lt;/pre&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1-3) &amp;nbsp; &amp;nbsp;主键索引,不允许有空值,&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(在B+TREE中的InnoDB引擎中,主键索引起到了至关重要的地位)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;主键索引建立的规则是 int优于varchar,一般在建表的时候创建,最好是与表的其他字段不相关的列或者是业务不相关的列.一般会设为 int 而且是 AUTO_INCREMENT自增类型的&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;2.组合索引&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;一个表中含有多个单列索引不代表是组合索引,通俗一点讲 组合索引是:包含多个字段但是只有索引名称&lt;/span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;其sql格式是 CREATE INDEX IndexName On `TableName`(`字段名`(length),`字段名`(length),...);&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;&amp;nbsp;CREATE&amp;nbsp;INDEX&amp;nbsp;nickname_account_createdTime_Index&amp;nbsp;ON&amp;nbsp;`award`(`nickname`,&amp;nbsp;`account`,&amp;nbsp;`created_time`);&lt;/pre&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20171113/1510568957656492.png&quot; alt=&quot;&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;如果你建立了 组合索引(nickname_account_createdTime_Index) 那么他实际包含的是3个索引 (nickname) (nickname,account)(nickname,account,created_time)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;在使用查询的时候遵循mysql组合索引的&amp;quot;最左前缀&amp;quot;,下面我们来分析一下 什么是最左前缀:及索引where时的条件要按照建立索引的时候字段的排序方式&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1、不按索引最左列开始查询（多列索引）&amp;nbsp;例如index(‘c1’,&amp;nbsp;‘c2’,&amp;nbsp;‘c3’)&amp;nbsp;where&amp;nbsp;‘c2’&amp;nbsp;=&amp;nbsp;‘aaa’&amp;nbsp;不使用索引,where `c2` = `aaa` and `c3`=`sss` 不能使用索引&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;2、查询中某个列有范围查询，则其右边的所有列都无法使用查询（多列查询）&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;Where&amp;nbsp;c1=&amp;nbsp;‘xxx’&amp;nbsp;and&amp;nbsp;c2&amp;nbsp;like&amp;nbsp;=&amp;nbsp;‘aa%’&amp;nbsp;and&amp;nbsp;c3=’sss’&amp;nbsp;改查询只会使用索引中的前两列,因为like是范围查询&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;3、不能跳过某个字段来进行查询,这样利用不到索引,比如我的sql 是&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;explain select * from `award` where nickname &amp;gt; &amp;#39;rSUQFzpkDz3R&amp;#39; and account = &amp;#39;DYxJoqZq2rd7&amp;#39; and created_time = 1449567822; 那么这时候他使用不到其组合索引.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;因为我的索引是 (nickname, account, created_time),如果第一个字段出现 范围符号的查找,那么将不会用到索引,如果我是第二个或者第三个字段使用范围符号的查找,那么他会利用索引,利用的索引是(nickname),&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;因为上面说了建立组合索引(nickname, account, created_time), 会出现三个索引&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20171113/1510568957132012.png&quot; alt=&quot;&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;img src=&quot;/ueditor/php/upload/image/20171113/1510568957133587.png&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px;&quot;&gt;(3)全文索引&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;文本字段上(text)如果建立的是普通索引,那么只有对文本的字段内容前面的字符进行索引,其字符大小根据索引建立索引时申明的大小来规定.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;如果文本中出现多个一样的字符,而且需要查找的话,那么其条件只能是 where column lick &amp;#39;%xxxx%&amp;#39; 这样做会让索引失效&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;.这个时候全文索引就祈祷了作用了&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;ALTER&amp;nbsp;TABLE&amp;nbsp;tablename&amp;nbsp;ADD&amp;nbsp;FULLTEXT(column1,&amp;nbsp;column2)&lt;/pre&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;有了全文索引，就可以用SELECT查询命令去检索那些包含着一个或多个给定单词的数据记录了。&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; list-style-type: none; list-style-image: none; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;ELECT&amp;nbsp;*&amp;nbsp;FROM&amp;nbsp;tablenameWHERE&amp;nbsp;MATCH(column1,&amp;nbsp;column2)&amp;nbsp;AGAINST(‘xxx′,&amp;nbsp;‘sss′,&amp;nbsp;‘ddd′)&lt;/pre&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;这条命令将把column1和column2字段里有xxx、sss和ddd的数据记录全部查询出来。&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18pt;&quot;&gt;(二)索引的删除&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;删除索引的mysql格式 :DORP INDEX IndexName ON `TableName`&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18pt;&quot;&gt;(三)使用索引的优点&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1.可以通过建立唯一索引或者主键索引,保证数据库表中每一行数据的唯一性.&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;2.建立索引可以大大提高检索的数据,以及减少表的检索行数&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;3.在表连接的连接条件 可以加速表与表直接的相连&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;4.在分组和排序字句进行数据检索,可以减少查询时间中 分组 和 排序时所消耗的时间(数据库的记录会重新排序)&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;5.建立索引,在查询中使用索引 可以提高性能&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;NewStyle15&quot; style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18pt;&quot;&gt;(四)使用索引的缺点&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1.在创建索引和维护索引 会耗费时间,随着数据量的增加而增加&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;2.索引文件会占用物理空间,除了数据表需要占用物理空间之外,每一个索引还会占用一定的物理空间&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;3.当对表的数据进行 INSERT,UPDATE,DELETE 的时候,索引也要动态的维护,这样就会降低数据的维护速度,(建立索引会占用磁盘空间的索引文件。一般情况这个问题不太严重，但如果你在一个大表上创建了多种组合索引，索引文件的会膨胀很快)。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18pt;&quot;&gt;(五)使用索引需要注意的地方&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;在建立索引的时候应该考虑索引应该建立在数据库表中的某些列上面 哪一些索引需要建立,哪一些所以是多余的.&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;一般来说,&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1.在经常需要搜索的列上,可以加快索引的速度&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;2.主键列上可以确保列的唯一性&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;3.在表与表的而连接条件上加上索引,可以加快连接查询的速度&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;4.在经常需要排序(order by),分组(group by)和的distinct 列上加索引 可以加快排序查询的时间, &amp;nbsp;(单独order by&amp;nbsp;用不了索引，索引考虑加where&amp;nbsp;或加limit)&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;5.在一些where 之后的 &amp;lt; &amp;lt;= &amp;gt; &amp;gt;= BETWEEN IN 以及某个情况下的like 建立字段的索引(B-TREE)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;6.like语句的 如果你对nickname字段建立了一个索引.当查询的时候的语句是 nickname lick &amp;#39;%ABC%&amp;#39; 那么这个索引讲不会起到作用.而nickname lick &amp;#39;ABC%&amp;#39; 那么将可以用到索引&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;7.索引不会包含NULL列,如果列中包含NULL值都将不会被包含在索引中,复合索引中如果有一列含有NULL值那么这个组合索引都将失效,一般需要给默认值0或者 &amp;#39; &amp;#39;字符串&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;8.使用短索引,如果你的一个字段是Char(32)或者int(32),在创建索引的时候指定前缀长度 比如前10个字符 (前提是多数值是唯一的..)那么短索引可以提高查询速度,并且可以减少磁盘的空间,也可以减少I/0操作.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;9.不要在列上进行运算,这样会使得mysql索引失效,也会进行全表扫描&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;10.选择越小的数据类型越好,因为通常越小的数据类型通常在磁盘,内存,cpu,缓存中 占用的空间很少,处理起来更快&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18pt;&quot;&gt;(六)什么情况下不创建索引&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; list-style-type: none; list-style-image: none; color: rgb(68, 68, 68); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;1.查询中很少使用到的列 不应该创建索引,如果建立了索引然而还会降低mysql的性能和增大了空间需求.&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;2.很少数据的列也不应该建立索引,比如 一个性别字段 0或者1,在查询中,结果集的数据占了表中数据行的比例比较大,mysql需要扫描的行数很多,增加索引,并不能提高效率&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;3.定义为text和image和bit数据类型的列不应该增加索引,&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;;&quot;&gt;4.当表的修改(UPDATE,INSERT,DELETE)操作远远大于检索(SELECT)操作时不应该创建索引,这两个操作是互斥的关系&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','/images/2017-11-13/5a097415b5d6c.jpg','1510568981') [ RunTime:0.1460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:29:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0890s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:30:36+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\blog\Application\Admin\Controller\IndexController.class.php on line 6 and defined F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\blog\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:30:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:30:39+08:00 ] 127.0.0.1 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-13T18:30:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-13T18:30:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T18:30:44+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0300s ]
+
+[ 2017-11-13T18:30:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0270s ]
+
+[ 2017-11-13T18:30:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0310s ]
+
+[ 2017-11-13T18:30:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0220s ]
+
+[ 2017-11-13T18:30:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0230s ]
+
+[ 2017-11-13T18:30:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0530s ]
+
+[ 2017-11-13T18:30:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T18:30:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0650s ]
+
+[ 2017-11-13T18:31:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0300s ]
+
+[ 2017-11-13T18:31:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T18:31:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0290s ]
+
+[ 2017-11-13T18:47:24+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1080s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:47:29+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0220s ]
+
+[ 2017-11-13T18:47:34+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T18:47:41+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T18:47:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0990s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:47:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0240s ]
+
+[ 2017-11-13T18:48:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0980s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T18:48:23+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0340s ]
+
+[ 2017-11-13T18:52:47+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0760s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-13T18:56:31+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0950s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-13T18:56:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T18:57:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0260s ]
+
+[ 2017-11-13T18:58:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2017-11-13T18:58:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0320s ]
+
+[ 2017-11-13T18:59:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0290s ]
+
+[ 2017-11-13T19:01:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-11-13T19:01:05+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0340s ]
+
+[ 2017-11-13T19:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0290s ]
+
+[ 2017-11-13T19:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0330s ]
+
+[ 2017-11-13T19:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0320s ]
+
+[ 2017-11-13T19:01:23+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T19:01:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0810s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T19:01:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0360s ]
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 30 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\blog\Application\Admin\Controller\ArticleController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: articleData F:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+
+[ 2017-11-13T19:02:34+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-13T19:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0330s ]
+
+[ 2017-11-13T19:09:59+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0270s ]
+
+[ 2017-11-13T19:10:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0350s ]
+
+[ 2017-11-13T19:10:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0270s ]
+
+[ 2017-11-13T19:10:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0270s ]
+
+[ 2017-11-13T19:10:05+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0320s ]
+
+[ 2017-11-13T19:10:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T19:10:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T19:10:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0300s ]
+
+[ 2017-11-13T19:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( c_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( c_id= ) LIMIT 1  
+
+[ 2017-11-13T19:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T19:12:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0250s ]
+
+[ 2017-11-13T19:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0270s ]
+
+[ 2017-11-13T19:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0380s ]
+
+[ 2017-11-13T19:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0930s ]
+
+[ 2017-11-13T19:12:57+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0250s ]
+
+[ 2017-11-13T19:14:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0290s ]
+
+[ 2017-11-13T19:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0310s ]
+
+[ 2017-11-13T19:14:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( c_id=0 )  [ RunTime:0.0280s ]
+
+[ 2017-11-13T19:16:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0260s ]
+
+[ 2017-11-13T19:16:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0400s ]
+

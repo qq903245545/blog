@@ -14,20 +14,22 @@ class ArticleController extends CommonController {
     	$this->display();
     }
 
+    /**
+     *Ajax各个分类下的内容
+     */
     public function ajaxSelectCategory(){
         $cId = I('c_id');
         $res = D('Category')->selectIdcategory($cId);
         if ($res['cat_son_id'] !=0 ) {  //查找二级分类文章
             $articleData = D('Article')->categoryArticleSelect($res['c_id']);
         } else {  //查找顶级分类包括子分类下的文章
-            $allList = D('Category')->allCategory($res['cat_son_id']);  //查找该分类下的子分类
-            echo json_encode($allList);die;
+            $allList = D('Category')->allCategory($res['c_id']);  //查找该分类下的子分类
         }
 
         foreach ($articleData as $key => $value) {
             $articleData[$key]['article_time'] = date('Y-m-d H:i:s',$value['article_time']);
         }
-        die(json_encode($articleData));
+        exit(json_encode($articleData));
     }
 
 
