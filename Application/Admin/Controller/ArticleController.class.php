@@ -18,18 +18,23 @@ class ArticleController extends CommonController {
      *Ajax各个分类下的内容
      */
     public function ajaxSelectCategory(){
-        $cId = I('c_id');
-        $res = D('Category')->selectIdcategory($cId);
-        if ($res['cat_son_id'] !=0 ) {  //查找二级分类文章
-            $articleData = D('Article')->categoryArticleSelect($res['c_id']);
-        } else {  //查找顶级分类包括子分类下的文章
-            $allList = D('Category')->allCategory($res['c_id']);  //查找该分类下的子分类
-        }
+        $cId = I('c_id','');
+        if (!empty($cId)){
+            $res = D('Category')->selectIdcategory($cId);
+            if ($res['cat_son_id'] !=0 ) {  //查找二级分类文章
+                $articleData = D('Article')->categoryArticleSelect($res['c_id']);
+            } else {  //查找顶级分类包括子分类下的文章
+                $allList = D('Category')->allCategory($res['c_id']);  //查找该分类下的子分类
+                if (!empty($allList)) {
+                    $articleData = D('Article')->allCategoryArticle($allList); //二级分类下多所有文章
+                }
+            }
 
-        foreach ($articleData as $key => $value) {
-            $articleData[$key]['article_time'] = date('Y-m-d H:i:s',$value['article_time']);
+            foreach ($articleData as $key => $value) {
+                $articleData[$key]['article_time'] = date('Y-m-d H:i:s',$value['article_time']);
+            }
+            exit(json_encode($articleData)); //返回json文章数据格式
         }
-        exit(json_encode($articleData));
     }
 
 
@@ -61,6 +66,14 @@ class ArticleController extends CommonController {
 			$this->assign('categoryList',$categoryList);
     		$this->display();
     	}
+    }
+
+    public function articleDel(){
+        $aId = I('aId','','int');
+        if ($aId) {
+            $res = D('Article')->delArticle($aId);
+            $this->success('删除成功','/index.php/Admin/Article/index',3);
+        }
     }
 
 }

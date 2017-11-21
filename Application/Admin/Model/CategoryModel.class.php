@@ -32,10 +32,10 @@ class CategoryModel extends Model {
 	/**
 	 * 查询该分类下的子分类
 	 * @param  id $catSonId 要查询该分类的id
-	 * @return array           该子分类id
+	 * @return array        该分类的子分类id
 	 */
 	public function allCategory($catSonId){
-		return M('Category')->field('c_id')->where("cat_son_id={$catSonId}")->select();
+		return M('Category')->where("cat_son_id={$catSonId}")->getField('c_id',true);
 	}
 
 }

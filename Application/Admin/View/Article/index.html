@@ -69,12 +69,26 @@
               <div class="am-btn-group am-btn-group-xs">
                 <button type="button" class="am-btn am-btn-default">编辑</button>
                 <button type="button" class="am-btn am-btn-default">置顶</button>
-                <button type="button" class="am-btn am-btn-default">删除</button>
+                <a href="{:U('Article/articleDel',array('aId'=>$val['a_id']))}" class="am-btn am-btn-default article-del" role="button">删除</a>
                 <button type="button" class="am-btn am-btn-default">分类</button>
               </div>
             </td>
         </tr>
         </foreach>
+
+        <!-- 是否删除提示框 -->
+      <!--   <div class="am-modal am-modal-confirm" tabindex="-1" id="my-confirm">
+        <div class="am-modal-dialog">
+          <div class="am-modal-hd">Amaze UI</div>
+          <div class="am-modal-bd">
+            你，确定要删除这条记录吗？
+          </div>
+          <div class="am-modal-footer">
+            <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+            <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+          </div>
+       </div> -->
+        <!-- 是否删除提示框 结束 -->
     </tbody>
 </table>
         </div>
@@ -130,6 +144,27 @@ $(function(){
         $("#article-list").html(str);
     },"json")
   })
+
+/**
+  $('#article-list').find('.article-del').add('#doc-confirm-toggle').
+    on('click', function() {
+      $('#my-confirm').modal({
+        relatedTarget: this,
+        onConfirm: function(options) {
+          var $link = $(this.relatedTarget).prev('a');
+          var msg = $link.length ? '你要删除的链接 ID 为 ' + $link.data('id') :
+            '确定了，但不知道要整哪样';
+          alert(msg);
+        },
+        // closeOnConfirm: false,
+        onCancel: function() {
+          alert('算求，不弄了');
+        }
+      });
+    });
+**/
+
+
 })
 </script>
 </body>

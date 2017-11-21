@@ -1,0 +1,1389 @@
+[ 2017-11-21T20:19:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T20:19:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T20:19:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0210s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 32 行.
+
+[ 2017-11-21T20:19:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 32 行.
+
+[ 2017-11-21T20:21:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T20:21:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T20:22:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0210s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 32 行.
+
+[ 2017-11-21T20:28:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T20:32:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 ) LIMIT 1   [ RunTime:0.0170s ]
+
+[ 2017-11-21T20:33:18+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+
+[ 2017-11-21T20:34:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0200s ]
+
+[ 2017-11-21T20:43:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0190s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 35 行.
+
+[ 2017-11-21T20:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T20:46:05+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T20:49:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0250s ]
+
+[ 2017-11-21T20:49:23+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0260s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T20:51:28+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1610s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T20:51:32+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1680s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T20:57:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T20:57:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T20:57:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=7 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T20:57:45+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0240s ]
+
+[ 2017-11-21T20:57:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=9 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=9 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T20:57:47+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1510s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T20:57:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T20:57:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0790s ]
+
+[ 2017-11-21T20:57:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1440s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T20:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.1500s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T21:00:26+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\blog\Application\Admin\Controller\ArticleController.class.php 第 33 行.
+NOTIC: [8] Undefined variable: articleData E:\blog\Application\Admin\Controller\ArticleController.class.php 第 36 行.
+
+[ 2017-11-21T21:05:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0740s ]
+
+[ 2017-11-21T21:05:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:05:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:05:57+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0240s ]
+
+[ 2017-11-21T21:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:06:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=7 )  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0890s ]
+
+[ 2017-11-21T21:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:06:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0970s ]
+
+[ 2017-11-21T21:06:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( c_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( c_id= ) LIMIT 1  
+
+[ 2017-11-21T21:08:51+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:08:52+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:08:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:08:55+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0820s ]
+
+[ 2017-11-21T21:09:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:09:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:09:17+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0730s ]
+
+[ 2017-11-21T21:09:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:09:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:09:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0290s ]
+
+[ 2017-11-21T21:10:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:11:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( c_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( c_id= ) LIMIT 1  
+
+[ 2017-11-21T21:16:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0250s ]
+
+[ 2017-11-21T21:16:13+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:16:14+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:16:16+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0500s ]
+
+[ 2017-11-21T21:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0870s ]
+
+[ 2017-11-21T21:16:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:16:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.1000s ]
+
+[ 2017-11-21T21:16:22+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE ( article_category_id=7 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:16:23+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:21:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0170s ]
+
+[ 2017-11-21T21:21:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:25:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:25:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:25:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0690s ]
+
+[ 2017-11-21T21:25:13+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0170s ]
+
+[ 2017-11-21T21:25:15+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:25:17+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-21T21:25:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:25:20+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-21T21:25:22+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:25:24+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=9 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=9 )  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:25:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T21:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:25:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:25:59+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T21:26:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:26:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:26:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T21:26:04+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:26:06+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0870s ]
+
+[ 2017-11-21T21:26:08+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0280s ]
+
+[ 2017-11-21T21:26:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=7 )  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:26:13+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:26:14+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:26:19+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:26:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:26:24+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:26:28+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0730s ]
+
+[ 2017-11-21T21:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T21:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:26:47+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0170s ]
+
+[ 2017-11-21T21:27:40+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:27:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:28:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:28:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:31:57+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T21:31:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:32:11+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:32:12+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0240s ]
+
+[ 2017-11-21T21:37:24+08:00 ] 127.0.0.1 /index.php/Admin/Category/admin-index.html
+ERR: 非法操作:admin-index
+
+[ 2017-11-21T21:38:43+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=5 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=5 )  [ RunTime:0.0170s ]
+
+[ 2017-11-21T21:38:46+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:38:48+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0230s ]
+
+[ 2017-11-21T21:38:50+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:38:52+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=4 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=4 )  [ RunTime:0.0210s ]
+
+[ 2017-11-21T21:38:53+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=8 ) LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=8 )  [ RunTime:0.0160s ]
+
+[ 2017-11-21T21:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:38:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:38:56+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-21T21:38:58+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=6 )  [ RunTime:0.0180s ]
+
+[ 2017-11-21T21:38:59+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=2 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=2 )  [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('5','6')  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:39:00+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0250s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0240s ]
+
+[ 2017-11-21T21:39:02+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:39:03+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:39:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0220s ]
+
+[ 2017-11-21T21:48:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/articleDel.html
+ERR: 非法操作:articleDel
+
+[ 2017-11-21T21:52:41+08:00 ] 127.0.0.1 /index.php/Admin/Article/articleDel.htmlArray
+ERR: 非法操作:articleDel.htmlArray
+
+[ 2017-11-21T21:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Article/articleDel.htmlArray
+ERR: 非法操作:articleDel.htmlArray
+
+[ 2017-11-21T21:57:25+08:00 ] 127.0.0.1 /index.php/Admin/Article/articleDel.htmlArray
+ERR: 非法操作:articleDel.htmlArray
+
+[ 2017-11-21T21:58:35+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=7 ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=7 )  [ RunTime:0.0190s ]
+
+[ 2017-11-21T21:58:37+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=3 ) LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE ( article_category_id=3 )  [ RunTime:0.0200s ]
+
+[ 2017-11-21T21:58:41+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-21T21:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Article/ajaxSelectCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `category` WHERE ( c_id=1 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `c_id` FROM `category` WHERE ( cat_son_id=1 )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT `article_name`,`article_time` FROM `article` WHERE `article_category_id` IN ('3','4','7','8','9')  [ RunTime:0.0190s ]
+
+[ 2017-11-21T22:52:38+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.htmlArray
+ERR: 非法操作:index.htmlArray
+
+[ 2017-11-21T22:55:21+08:00 ] 127.0.0.1 /index.php/Admin/Article/index.htmlArray
+ERR: 非法操作:index.htmlArray
+
