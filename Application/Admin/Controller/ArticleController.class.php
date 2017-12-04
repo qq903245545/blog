@@ -41,7 +41,7 @@ class ArticleController extends CommonController {
     /**
      * 文章添加
      */
-    public function ArticleAdd(){
+    public function articleAdd(){
     	if (IS_POST) {
     		$data = I('post.');
 
@@ -68,12 +68,31 @@ class ArticleController extends CommonController {
     	}
     }
 
+    /**
+     * 文章删除
+     */   
     public function articleDel(){
         $aId = I('aId','','int');
         if ($aId) {
             $res = D('Article')->delArticle($aId);
             $this->success('删除成功','/index.php/Admin/Article/index',3);
         }
+    }
+
+    /**
+     * 文章修改
+     */
+    public function articleEditor(){
+        $aId = I('aId','','int');
+        if ($aId) {
+            $data = D('Article')->selectOneArticle($aId); //查询单条文章全部数据
+            $categoryData = D('Category')->selectCategory(); //查询文章所有分类
+            $categoryList = formatCategoryData($categoryData); //对分类数据进行树排序
+            $this->assign('categoryList',$categoryList);
+            $this->assign('articleData',$data);
+            $this->display();
+        }
+
     }
 
 }

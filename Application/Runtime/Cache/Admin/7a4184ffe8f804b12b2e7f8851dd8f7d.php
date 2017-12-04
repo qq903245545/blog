@@ -116,10 +116,8 @@
             <td>Amaze UI</td>
             <td>
               <div class="am-btn-group am-btn-group-xs">
-                <button type="button" class="am-btn am-btn-default">编辑</button>
-                <button type="button" class="am-btn am-btn-default">置顶</button>
+                <a href="<?php echo U('Article/articleEditor',array('aId'=>$val['a_id']));?>" target="_blank" class="am-btn am-btn-default article-del" role="button">编辑</a>
                 <a href="<?php echo U('Article/articleDel',array('aId'=>$val['a_id']));?>" class="am-btn am-btn-default article-del" role="button">删除</a>
-                <button type="button" class="am-btn am-btn-default">分类</button>
               </div>
             </td>
         </tr><?php endforeach; endif; ?>
@@ -169,10 +167,11 @@
 $(function(){
   $("#select-type").change(function(){
     var c_id = $(this).val();
-    var path = "<?php echo U('Article/ajaxSelectCategory');?>"
+    var path = "<?php echo U('Article/ajaxSelectCategory');?>";
     $.post(path,{c_id:c_id},function(data){
       var str = "";
       for (var i = 0; i < data.length; i++) {
+           var a_id = "<?php echo U('Article/articleDel');?>?aId="+data[i].a_id;
           str += "<tr>";
             str += "<td>"+data[i].article_name+"</td>";
             str += "<td><a href='#'><span class='am-icon-eye-slash'></span></a></td>";
@@ -181,10 +180,8 @@ $(function(){
             str += "<td>"+data[i].article_name+"</td>";
             str += "<td>";
             str += "<div class='am-btn-group am-btn-group-xs'>";
-              str += "<button type='button' class='am-btn am-btn-default'>编辑</button>";
-              str += "<button type='button' class='am-btn am-btn-default'>置顶</button>";
-              str += "<button type='button' class='am-btn am-btn-default'>删除</button>";
-              str += "<button type='button' class='am-btn am-btn-default'>分类</button>";
+              str += "<button type='button' target='_blank' class='am-btn am-btn-default'>编辑</button>";
+              str += " <a href='"+a_id+"' class='am-btn am-btn-default article-del' role='button'>删除</a>";
             str += "</div>";
             str += "</td>";
           str += "<tr/>"

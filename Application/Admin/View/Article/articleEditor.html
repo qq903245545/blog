@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Amaze UI Admin index Examples</title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="__PUBLIC__/assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="__PUBLIC__/assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="__PUBLIC__/assets/css/admin.css">
+</head>
+<body>
+
+<!-- header start -->
+ <include file="Public/header" />
+<!-- header end-->
+
+<div class="am-cf admin-main">
+  <!-- sidebar start -->
+  <include file="Public/sidebar" />
+  <!-- sidebar end -->
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding">
+      <!-- 表单开始 -->
+      <form action="{:U('Article/ArticleAdd')}" method="post" enctype="multipart/form-data">
+      <p><input type="text" class="am-form-field am-round" placeholder="填写文章标题" name="article_name" value="{$articleData.article_name}" required/></p>
+        <!-- 加载编辑器的容器 -->
+        <script id="container" name="article_content" type="text/plain">
+            {:htmlspecialchars_decode($articleData['article_content'])}
+        </script>
+        <hr/>
+        <div class="am-g">
+            <div class="am-u-sm-6">
+                <select data-am-selected="{maxHeight: 100}" name="article_category_id">
+                <foreach name="categoryList" item="val">
+                  <option value="{$val.c_id}" disabled="false">{$val.category_name}</option>
+                  <foreach name="val.son" item="v">
+                  <option value="{$v.c_id}" <if condition="$v.c_id == $articleData['article_category_id']">selected="selected"</if>>---{$v.category_name}</option>
+                  </foreach>
+                </foreach>
+                </select>
+            </div>
+            <div class="am-u-sm-6">
+                <div class="am-form-group am-form-file am-fr">
+                  <button type="button" class="am-btn am-btn-default am-btn-sm">
+                    <i class="am-icon-cloud-upload"></i> 选择要上传的图片</button>
+                  <input type="file" multiple name="article_img">
+                   <img style="margin-top: 5px;margin-left: 5px;" src="__PUBLIC__{$articleData['article_img']}" alt="丢失的图片" class="am-img-responsive" width="150" height="60">
+                </div>
+            </div>
+        </div>
+         <div class="blog-button">
+            <button type="button" class="am-btn am-btn-primary am-round">保存草稿</button>
+            <button type="submint" class="am-btn am-btn-success am-round">立即修改</button>
+         </div>
+        </form>
+         <!-- 表单结束 -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+  <!-- content end -->
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+<script src="__PUBLIC__/assets/js/app.js"></script>
+
+      <!-- ueditor编辑器 -->
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+        editor.setContent('esfefefe');
+    </script>
+</body>
+</html>

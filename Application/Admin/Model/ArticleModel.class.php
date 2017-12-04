@@ -56,4 +56,13 @@ class ArticleModel extends Model {
 	public function delArticle($aId){
 		return M('Article')->where("a_id=$aId")->delete(); // 删除id为5的用户数据
 	}
+
+	/**
+	 * 查询单条文章全部数据
+	 * @param  int $aId 要查询的文章ID
+	 * @return array      单条文章全部数据
+	 */
+	public function selectOneArticle($aId){
+		return M('Article')->where("a_id=$aId")->find(); // 删除id为5的用户数据
+	}
 }
